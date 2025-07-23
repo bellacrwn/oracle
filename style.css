@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1b1b1b, #3d3d3d);
+  color: #fdfdfd;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px #ff8800;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff8800;
+}
+
+.description {
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #ccc;
+}
+
+.oracle-box {
+  padding: 20px;
+  border: 2px dashed #ff8800;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 120px;
+  transition: all 0.3s ease;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #ff8800;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff8800;
+}
+
+button:hover {
+  background: #ffa733;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.oracle-box {
+  animation: fadeIn 0.6s ease-out;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #aaa;
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #aaa;
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+}
